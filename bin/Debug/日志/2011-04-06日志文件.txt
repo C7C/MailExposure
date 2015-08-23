@@ -1,0 +1,45 @@
+[126ID：koukou_love]开始登陆…………  2011-4-6 21:08:56
+[126ID：koukou_love]登陆成功!  2011-4-6 21:08:58
+[126ID：koukou_love]邮件下载失败:感谢注册团好网，请验证Email以获取更多服务:	Input string was not in a correct format.  2011-4-6 21:09:01
+[126ID：koukou_love]邮件下载失败:好书推荐PPT，供大家学习参考！:	Thread was being aborted.  2011-4-6 21:09:59
+[126ID：koukou_love]取邮件失败!Thread was being aborted.  2011-4-6 21:09:59
+[126ID：koukou_love]取箱子失败！Thread was being aborted.  2011-4-6 21:09:59
+[126ID：koukou_love]Input string was not in a correct format.  2011-4-6 21:09:59
+[126ID：koukou_love]登陆失败！Thread was being aborted.  2011-4-6 21:09:59
+[126ID：koukou_love]Thread was being aborted.  2011-4-6 21:09:59
+[126ID：koukou_love]开始登陆…………  2011-4-6 21:11:58
+[126ID：koukou_love]登陆成功!  2011-4-6 21:12:00
+[126ID：koukou_love]邮件下载失败:感谢注册团好网，请验证Email以获取更多服务:	Input string was not in a correct format.  2011-4-6 21:12:01
+[126ID：koukou_love]保存Thread was being aborted.  2011-4-6 21:13:53
+[126ID：koukou_love]保存邮件失败：Thread was being aborted.  2011-4-6 21:14:20
+[126ID：koukou_love]邮件下载失败:好书推荐PPT，供大家学习参考！:	Thread was being aborted.  2011-4-6 21:14:30
+[126ID：koukou_love]取邮件失败!Thread was being aborted.  2011-4-6 21:14:30
+[126ID：koukou_love]取箱子失败！Thread was being aborted.  2011-4-6 21:14:30
+[126ID：koukou_love]Input string was not in a correct format.  2011-4-6 21:14:30
+[126ID：koukou_love]登陆失败！Thread was being aborted.  2011-4-6 21:14:33
+[126ID：koukou_love]Thread was being aborted.  2011-4-6 21:14:33
+[126ID：koukou_love]开始登陆…………  2011-4-6 21:16:45
+[126ID：koukou_love]登陆成功!  2011-4-6 21:16:46
+[126ID：koukou_love]邮件下载失败:感谢注册团好网，请验证Email以获取更多服务:	Input string was not in a correct format.  2011-4-6 21:16:49
+[126ID：koukou_love]邮件下载失败:好书推荐PPT，供大家学习参考！:	Thread was being aborted.  2011-4-6 21:16:57
+[126ID：koukou_love]取邮件失败!Thread was being aborted.  2011-4-6 21:16:57
+[126ID：koukou_love]取箱子失败！Thread was being aborted.  2011-4-6 21:16:57
+[126ID：koukou_love]Input string was not in a correct format.  2011-4-6 21:16:57
+[126ID：koukou_love]登陆失败！Thread was being aborted.  2011-4-6 21:16:58
+[126ID：koukou_love]Thread was being aborted.  2011-4-6 21:16:58
+[126ID：koukou_love]开始登陆…………  2011-4-6 21:20:18
+[126ID：koukou_love]登陆成功!  2011-4-6 21:20:18
+[126ID：koukou_love]邮件下载失败:感谢注册团好网，请验证Email以获取更多服务:	Input string was not in a correct format.  2011-4-6 21:20:20
+[126ID：koukou_love]开始登陆…………  2011-4-6 21:21:08
+[126ID：koukou_love]登陆成功!  2011-4-6 21:21:09
+[126ID：koukou_love]邮件下载失败:感谢注册团好网，请验证Email以获取更多服务:	Input string was not in a correct format.  2011-4-6 21:21:10
+[126ID：koukou_love]开始登陆…………  2011-4-6 21:22:25
+[126ID：koukou_love]登陆成功!  2011-4-6 21:23:07
+[126ID：koukou_love]开始登陆…………  2011-4-6 21:26:51
+[126ID：koukou_love]登陆成功!  2011-4-6 21:26:52
+[126ID：koukou_love]收件箱:感谢注册团好网，请验证Email以获取更多服务	下载  2011-4-6 21:26:55
+[126ID：koukou_love]邮件下载失败:好书推荐PPT，供大家学习参考！:	Thread was being aborted.  2011-4-6 21:29:31
+[126ID：koukou_love]取邮件失败!Thread was being aborted.  2011-4-6 21:29:32
+[126ID：koukou_love]取箱子失败！Thread was being aborted.  2011-4-6 21:29:32
+[126ID：koukou_love]登陆失败！Thread was being aborted.  2011-4-6 21:29:32
+[126ID：koukou_love]Thread was being aborted.  2011-4-6 21:29:32

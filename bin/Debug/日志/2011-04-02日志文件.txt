@@ -1,0 +1,41 @@
+[YaHooID：</span>    ]开始登陆…………  2011-4-2 15:14:51
+[YaHooID：</span>    ]Illegal characters in path.  2011-4-2 15:15:00
+[YaHooID：</span>    ]开始登陆…………  2011-4-2 15:19:48
+[YaHooID：</span>    ]开始登陆…………  2011-4-2 15:21:10
+[YaHooID：</span>    ]Illegal characters in path.  2011-4-2 15:21:19
+[YaHooID：</span>    ]开始登陆…………  2011-4-2 15:44:06
+[YaHooID：</span>    ]开始登陆…………  2011-4-2 15:46:54
+[YaHooID：testtest8811@yahoo.com]开始登陆…………  2011-4-2 15:12:59
+[YaHooID：testtest8811@yahoo.com]登陆成功！  2011-4-2 15:13:42
+[YaHooID：testtest8811@yahoo.com]Inbox：第 1 页开始下载  2011-4-2 15:14:04
+[YaHooID：testtest8811@yahoo.com]下载：test	  2011-4-2 15:14:09
+[YaHooID：testtest8811@yahoo.com]下载：test	  2011-4-2 15:14:21
+[YaHooID：testtest8811@yahoo.com]下载：Get the new Yahoo! Mail Beta	  2011-4-2 15:14:23
+[YaHooID：testtest8811@yahoo.com]置未读：Get the new Yahoo! Mail Beta	  2011-4-2 15:14:25
+[YaHooID：testtest8811@yahoo.com]下载：[ No Subject ]	  2011-4-2 15:14:27
+[YaHooID：testtest8811@yahoo.com]下载：你好！	  2011-4-2 15:14:28
+[YaHooID：testtest8811@yahoo.com]下载：你好	  2011-4-2 15:14:31
+[YaHooID：testtest8811@yahoo.com]下载：邮件欺骗	  2011-4-2 15:14:37
+[YaHooID：testtest8811@yahoo.com]Inbox：第 1 页下载完毕  2011-4-2 15:14:37
+[YaHooID：testtest8811@yahoo.com]Drafts: 没有邮件！  2011-4-2 15:14:42
+[YaHooID：testtest8811@yahoo.com]Sent: 没有邮件！  2011-4-2 15:14:45
+[YaHooID：testtest8811@yahoo.com]Spam：第 1 页开始下载  2011-4-2 15:14:47
+[YaHooID：testtest8811@yahoo.com]下载：test	  2011-4-2 15:14:51
+[YaHooID：testtest8811@yahoo.com]下载：你好！	  2011-4-2 15:14:53
+[YaHooID：testtest8811@yahoo.com]下载：ceshi	  2011-4-2 15:14:54
+[YaHooID：testtest8811@yahoo.com]下载：ceshi	  2011-4-2 15:14:56
+[YaHooID：testtest8811@yahoo.com]下载：你好！	  2011-4-2 15:15:00
+[YaHooID：testtest8811@yahoo.com]下载：你好！	  2011-4-2 15:15:02
+[YaHooID：testtest8811@yahoo.com]下载：你好！	  2011-4-2 15:15:04
+[YaHooID：testtest8811@yahoo.com]下载：你好！	  2011-4-2 15:15:05
+[YaHooID：testtest8811@yahoo.com]下载：你好！	  2011-4-2 15:15:08
+[YaHooID：testtest8811@yahoo.com]下载：你好！	  2011-4-2 15:15:10
+[YaHooID：testtest8811@yahoo.com]下载：你好！	  2011-4-2 15:15:12
+[YaHooID：testtest8811@yahoo.com]下载：ceshi	  2011-4-2 15:15:13
+[YaHooID：testtest8811@yahoo.com]下载：邮件欺骗	  2011-4-2 15:15:16
+[YaHooID：testtest8811@yahoo.com]下载：邮件欺骗	  2011-4-2 15:15:18
+[YaHooID：testtest8811@yahoo.com]下载：邮件欺骗	  2011-4-2 15:15:19
+[YaHooID：testtest8811@yahoo.com]下载：邮件欺骗	  2011-4-2 15:15:21
+[YaHooID：testtest8811@yahoo.com]Spam：第 1 页下载完毕  2011-4-2 15:15:21
+[YaHooID：testtest8811@yahoo.com]Trash: 没有邮件！  2011-4-2 15:15:23
+[YaHooID：testtest8811@yahoo.com]完成！  2011-4-2 15:15:23

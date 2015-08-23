@@ -1,0 +1,536 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A1A968DF-ED8F-4284-A6D8-ED60E6838B09}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MailExposure</RootNamespace>
+    <AssemblyName>MailExposure</AssemblyName>
+    <ApplicationIcon>MailExposureIcon.ico</ApplicationIcon>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.BonusSkins.v10.1">
+      <HintPath>
+      </HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Data.v10.1">
+      <HintPath>
+      </HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.OfficeSkins.v10.1">
+      <HintPath>
+      </HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.RichEdit.v10.1.Core, Version=10.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v10.1">
+      <HintPath>
+      </HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraBars.v10.1">
+      <HintPath>
+      </HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v10.1">
+      <HintPath>
+      </HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraNavBar.v10.1, Version=10.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraPrinting.v10.1">
+      <HintPath>
+      </HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Charts.v10.1.Core">
+      <HintPath>
+      </HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v10.1">
+      <HintPath>
+      </HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraPivotGrid.v10.1.Core">
+      <HintPath>
+      </HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraPivotGrid.v10.1">
+      <HintPath>
+      </HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraReports.v10.1">
+      <HintPath>
+      </HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraReports.v10.1.Extensions">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>
+      </HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraRichEdit.v10.1, Version=10.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraTreeList.v10.1, Version=10.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.mshtml, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>.\Microsoft.mshtml.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddDNS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddDNS.Designer.cs">
+      <DependentUpon>AddDNS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddSmtpServer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddSmtpServer.Designer.cs">
+      <DependentUpon>AddSmtpServer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CookieMailForm\ConvertBaseForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CookieMailForm\ConvertBaseForm.Designer.cs">
+      <DependentUpon>ConvertBaseForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CookieMailForm\CookieMailControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CookieMailForm\CookieMailControl.Designer.cs">
+      <DependentUpon>CookieMailControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CookieMailDB\CookieMailData.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CookieMailData.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CookieMailForm\FishCookie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CookieMailForm\FishCookie.Designer.cs">
+      <DependentUpon>FishCookie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CookieMailForm\frmSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CookieMailForm\frmSetting.Designer.cs">
+      <DependentUpon>frmSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CookieMailRC\AolReceiver.cs" />
+    <Compile Include="CookieMailRC\BeginReceiveThreads.cs" />
+    <Compile Include="CookieMailRC\CNMailReceiver.cs" />
+    <Compile Include="CookieMailRC\CookieInfos.cs" />
+    <Compile Include="CookieMailRC\CookieRecv.cs" />
+    <Compile Include="CookieMailRC\Displace.cs" />
+    <Compile Include="CookieMailRC\DisplaceNew.cs" />
+    <Compile Include="CookieMailRC\FastMailReceiver.cs" />
+    <Compile Include="CookieMailRC\Filter126mail.cs" />
+    <Compile Include="CookieMailRC\Filter163mail.cs" />
+    <Compile Include="CookieMailRC\Filter21CNmail.cs" />
+    <Compile Include="CookieMailRC\Filter263mail .cs" />
+    <Compile Include="CookieMailRC\FilterAolmail.cs" />
+    <Compile Include="CookieMailRC\FilterFastmail.cs" />
+    <Compile Include="CookieMailRC\FilterGmail.cs" />
+    <Compile Include="CookieMailRC\FilterHinetmail.cs" />
+    <Compile Include="CookieMailRC\FilterHotmail.cs" />
+    <Compile Include="CookieMailRC\FilterRumail.cs" />
+    <Compile Include="CookieMailRC\FilterSinamail.cs" />
+    <Compile Include="CookieMailRC\FilterTommail.cs" />
+    <Compile Include="CookieMailRC\FilterYahoo.cs" />
+    <Compile Include="CookieMailRC\GmailReceiver.cs" />
+    <Compile Include="CookieMailRC\HiNetReceiver.cs" />
+    <Compile Include="CookieMailRC\HotMailReceiver.cs" />
+    <Compile Include="CookieMailRC\JaPanYahooMailReceiver.cs" />
+    <Compile Include="CookieMailRC\Mail126Receiver.cs" />
+    <Compile Include="CookieMailRC\Mail163Receiver.cs" />
+    <Compile Include="CookieMailRC\Mail263Receiver.cs" />
+    <Compile Include="CookieMailRC\MailStr.cs" />
+    <Compile Include="CookieMailRC\POPMailReceiver.cs" />
+    <Compile Include="CookieMailRC\RuReceiver.cs" />
+    <Compile Include="CookieMailRC\SinaMailReceiver.cs" />
+    <Compile Include="CookieMailRC\SoHuMailReceiver.cs" />
+    <Compile Include="CookieMailRC\TomMailReceiver.cs" />
+    <Compile Include="CookieMailRC\TransformEml.cs" />
+    <Compile Include="CookieMailRC\Txx.cs" />
+    <Compile Include="CookieMailForm\frmAddUsers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CookieMailForm\frmAddUsers.Designer.cs">
+      <DependentUpon>frmAddUsers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CookieMailForm\CookieInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CookieMailForm\CookieInfo.Designer.cs">
+      <DependentUpon>CookieInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GlobalValue.cs" />
+    <Compile Include="LoginFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginFrm.Designer.cs">
+      <DependentUpon>LoginFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Log_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Log_Form.Designer.cs">
+      <DependentUpon>Log_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MailEditorControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MailEditorControl.Designer.cs">
+      <DependentUpon>MailEditorControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MailXssCode\Aol.cs" />
+    <Compile Include="MailXssCode\Gmail.cs" />
+    <Compile Include="MailXssCode\HanMail.cs" />
+    <Compile Include="MailXssCode\Hinet.cs" />
+    <Compile Include="MailXssCode\Hotmail.cs" />
+    <Compile Include="MailXssCode\IP.cs" />
+    <Compile Include="MailXssCode\Ru.cs" />
+    <Compile Include="MailXssCode\ss_mail.cs" />
+    <Compile Include="MailXssCode\Yahoo.cs" />
+    <Compile Include="MailXssCode\_126.cs" />
+    <Compile Include="MailXssCode\_163.cs" />
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PopMailDB\PopUserDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PopUserDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="POPMailForm\PopfrmAddUsers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="POPMailForm\PopfrmAddUsers.Designer.cs">
+      <DependentUpon>PopfrmAddUsers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="POPMailForm\PopMailControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="POPMailForm\PopMailControl.Designer.cs">
+      <DependentUpon>PopMailControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="POPMailForm\PopMailSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="POPMailForm\PopMailSetting.Designer.cs">
+      <DependentUpon>PopMailSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="POPMailForm\QQCheckBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="POPMailForm\QQCheckBox.Designer.cs">
+      <DependentUpon>QQCheckBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PopMailRC\BeginReceiveThreads.cs" />
+    <Compile Include="PopMailRC\CNMailReceiver.cs" />
+    <Compile Include="PopMailRC\CtmMailReceiver.cs" />
+    <Compile Include="PopMailRC\displace.cs" />
+    <Compile Include="PopMailRC\ExplainPasswd.cs" />
+    <Compile Include="PopMailRC\FastMailReceiver.cs" />
+    <Compile Include="PopMailRC\Filter163mail.cs" />
+    <Compile Include="PopMailRC\FilterGmail.cs" />
+    <Compile Include="PopMailRC\FilterHotmail.cs" />
+    <Compile Include="PopMailRC\FilterYahoo.cs" />
+    <Compile Include="PopMailRC\FreePOPS.cs" />
+    <Compile Include="PopMailRC\GmailReceiver.cs" />
+    <Compile Include="PopMailRC\HanMailReceiver.cs" />
+    <Compile Include="PopMailRC\HiNetReceiver.cs" />
+    <Compile Include="PopMailRC\HotMailReceiver.cs" />
+    <Compile Include="PopMailRC\HushMailReceiver.cs" />
+    <Compile Include="PopMailRC\IMAPMailReceiver.cs" />
+    <Compile Include="PopMailRC\JaPanYahooMailReceiver.cs" />
+    <Compile Include="PopMailRC\Mail126Receiver.cs" />
+    <Compile Include="PopMailRC\Mail163Receiver.cs" />
+    <Compile Include="PopMailRC\Mail263Receiver.cs" />
+    <Compile Include="PopMailRC\MailAolReceiver.cs" />
+    <Compile Include="PopMailRC\MailHNReceiver.cs" />
+    <Compile Include="PopMailRC\MailRamblerRuReceiver.cs" />
+    <Compile Include="PopMailRC\MailRediffReceiver.cs" />
+    <Compile Include="PopMailRC\MailStr.cs" />
+    <Compile Include="PopMailRC\MailVip163Receiver.cs" />
+    <Compile Include="PopMailRC\MailYandexRuReceiver.cs" />
+    <Compile Include="PopMailRC\POPMailReceiver.cs" />
+    <Compile Include="PopMailRC\QQMailReceiver.cs" />
+    <Compile Include="PopMailRC\RuReceiver.cs" />
+    <Compile Include="PopMailRC\SinaMailReceiver.cs" />
+    <Compile Include="PopMailRC\SoHuMailReceiver.cs" />
+    <Compile Include="PopMailRC\TomMailReceiver.cs" />
+    <Compile Include="PopMailRC\TransformEml.cs" />
+    <Compile Include="PopMailRC\Txx.cs" />
+    <Compile Include="PopMailRC\YeahMailReceiver.cs" />
+    <Compile Include="PrintRibbonControllerResources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PrintRibbonControllerResources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AddDNS.resx">
+      <DependentUpon>AddDNS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddSmtpServer.resx">
+      <DependentUpon>AddSmtpServer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CookieMailForm\ConvertBaseForm.resx">
+      <DependentUpon>ConvertBaseForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CookieMailForm\CookieMailControl.resx">
+      <DependentUpon>CookieMailControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CookieMailForm\FishCookie.resx">
+      <DependentUpon>FishCookie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CookieMailForm\frmAddUsers.resx">
+      <DependentUpon>frmAddUsers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CookieMailForm\CookieInfo.resx">
+      <DependentUpon>CookieInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CookieMailForm\frmSetting.resx">
+      <DependentUpon>frmSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginFrm.resx">
+      <DependentUpon>LoginFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Log_Form.resx">
+      <DependentUpon>Log_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MailEditorControl.resx">
+      <DependentUpon>MailEditorControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POPMailForm\PopfrmAddUsers.resx">
+      <DependentUpon>PopfrmAddUsers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POPMailForm\PopMailControl.resx">
+      <DependentUpon>PopMailControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POPMailForm\PopMailSetting.resx">
+      <DependentUpon>PopMailSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POPMailForm\QQCheckBox.resx">
+      <DependentUpon>QQCheckBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrintRibbonControllerResources.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>PrintRibbonControllerResources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CookieMailForm\UsersList.resx">
+      <DependentUpon>UsersList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XRDesignRibbonControllerResources.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>XRDesignRibbonControllerResources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="RecordInfo\AddressList.cs" />
+    <Compile Include="RecordInfo\DBHelper.cs" />
+    <Compile Include="RecordInfo\LogInfo.cs" />
+    <Compile Include="RecordInfo\Record.cs" />
+    <Compile Include="RecordInfo\UserNameList.cs" />
+    <Compile Include="Setting.cs" />
+    <Compile Include="SkinGalleryHelper.cs" />
+    <Compile Include="CookieMailForm\UsersList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CookieMailForm\UsersList.Designer.cs">
+      <DependentUpon>UsersList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XRDesignRibbonControllerResources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>XRDesignRibbonControllerResources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="MailExposureIcon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CookieMailDB\user.mdb" />
+    <Content Include="PopMailDB\Popuser.mdb" />
+    <Content Include="res\Business-Solutions.gif" />
+    <None Include="CookieMailDB\CookieMailData.xsc">
+      <DependentUpon>CookieMailData.xsd</DependentUpon>
+    </None>
+    <None Include="CookieMailDB\CookieMailData.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CookieMailData.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CookieMailDB\CookieMailData.xss">
+      <DependentUpon>CookieMailData.xsd</DependentUpon>
+    </None>
+    <None Include="PopMailDB\PopUserDataSet.xsc">
+      <DependentUpon>PopUserDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="PopMailDB\PopUserDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PopUserDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="PopMailDB\PopUserDataSet.xss">
+      <DependentUpon>PopUserDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="res\ButtonUnderline.gif" />
+    <None Include="res\ButtonItalic.gif" />
+    <None Include="res\ButtonBold.gif" />
+    <None Include="res\ButtonCenter.gif" />
+    <None Include="res\ButtonLeft.gif" />
+    <None Include="res\ButtonJustify.gif" />
+    <Content Include="res\Windows-Mobile.gif" />
+    <Content Include="res\Windows-Server-System.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
